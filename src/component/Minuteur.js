@@ -165,7 +165,7 @@ class Minuteur extends Component{
            
              
             
-             { this.state.input_show ?   <button onClick={this.submit}>Ok </button> : "" }
+             { this.state.input_show ?   <button onClick={this.submit}>START </button> : "" }
             
              { this.state.finish === 'prêt' ?   <p>Prêt</p> : "" }
              
